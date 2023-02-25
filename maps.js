@@ -75,7 +75,6 @@ function App() {
           draggable={true}
           onDragStart={(e) => {
             console.log("Drag start", e.nativeEvent.coordinates);
-            console.log("Welcome");
           }}
           onDragEnd={(e) => {
             setPin({
